@@ -2,20 +2,20 @@
   "name": "laboratory-classes-6",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "main.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "electron": "electron ."
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^2.2.0",
     "ejs": "^3.1.10",
-    "express": "^5.1.0",
-    "laboratory-classes-6": "file:"
+    "express": "^5.1.0"
   },
   "devDependencies": {
+    "electron": "^36.1.0",
     "nodemon": "^3.1.9"
   }
 }
-
